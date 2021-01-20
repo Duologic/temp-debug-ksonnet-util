@@ -7,7 +7,7 @@
         new(name, selector={}, ports=[])::
           super.new(name, selector, ports)
           + {
-            dns: std.trace('a', '%s.%s.svc.cluster.local' % [self.metadata.name, $._config.namespace]),
+            dns: std.trace('found dns', '%s.%s.svc.cluster.local' % [self.metadata.name, $._config.namespace]),
           },
       },
     },
