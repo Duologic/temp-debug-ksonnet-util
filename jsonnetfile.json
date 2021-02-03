@@ -13,8 +13,17 @@
     {
       "source": {
         "git": {
-          "remote": "https://github.com/jsonnet-libs/k8s-alpha.git",
-          "subdir": "1.16"
+          "remote": "https://github.com/grafana/loki.git",
+          "subdir": "production/ksonnet/loki"
+        }
+      },
+      "version": "master"
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/grafana/loki.git",
+          "subdir": "production/ksonnet/promtail"
         }
       },
       "version": "master"
@@ -23,7 +32,7 @@
       "source": {
         "git": {
           "remote": "https://github.com/jsonnet-libs/k8s-alpha.git",
-          "subdir": "1.17"
+          "subdir": "1.16"
         }
       },
       "version": "master"
@@ -36,14 +45,6 @@
         }
       },
       "version": "master"
-    },
-    {
-      "source": {
-        "local": {
-          "directory": ".."
-        }
-      },
-      "version": ""
     }
   ],
   "legacyImports": true

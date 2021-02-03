@@ -5,11 +5,61 @@
       "source": {
         "git": {
           "remote": "https://github.com/grafana/jsonnet-libs.git",
+          "subdir": "consul"
+        }
+      },
+      "version": "98dc5f385e2f1ab99522b92cb5dfaeae5f2b5767",
+      "sum": "whodWjF2UjlDT6rDiBsxbT+71UGD2J7IKiVxJETrXCA="
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/grafana/jsonnet-libs.git",
+          "subdir": "jaeger-agent-mixin"
+        }
+      },
+      "version": "98dc5f385e2f1ab99522b92cb5dfaeae5f2b5767",
+      "sum": "DsdBoqgx5kE3zc6fMYnfiGjW2+9Mx2OXFieWm1oFHgY="
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/grafana/jsonnet-libs.git",
           "subdir": "ksonnet-util"
         }
       },
-      "version": "2cef89cb717c8b596443ac5de0415d1ffdb42252",
+      "version": "98dc5f385e2f1ab99522b92cb5dfaeae5f2b5767",
       "sum": "sI6Hgng7yR8fkgHqJ10e3rQagVhpHhumAKqqzbOZUSM="
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/grafana/jsonnet-libs.git",
+          "subdir": "memcached"
+        }
+      },
+      "version": "98dc5f385e2f1ab99522b92cb5dfaeae5f2b5767",
+      "sum": "AIspZ151p0qkxVc9tuoAEYNrkazV6QncWWsIsarK9GE="
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/grafana/loki.git",
+          "subdir": "production/ksonnet/loki"
+        }
+      },
+      "version": "d667dd20f2878c372cef87fcd61f14b0267ff3bd",
+      "sum": "EWwVsBEUOl0zQknLhTg2XnUtTBTRR0aUJTJEFKqN1U8="
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/grafana/loki.git",
+          "subdir": "production/ksonnet/promtail"
+        }
+      },
+      "version": "d667dd20f2878c372cef87fcd61f14b0267ff3bd",
+      "sum": "wXyQwaHH/FokTo40dsnDKAIorEk9O4x+utXAGtZlxpM="
     },
     {
       "source": {
@@ -24,30 +74,12 @@
     {
       "source": {
         "git": {
-          "remote": "https://github.com/jsonnet-libs/k8s-alpha.git",
-          "subdir": "1.17"
-        }
-      },
-      "version": "5e0d0738721f3c190198818ef7f9414dcee9167f",
-      "sum": "95Cd44L6xTYrOvLiLth8LOoONXIaHMblKg/0yGqMBic="
-    },
-    {
-      "source": {
-        "git": {
           "remote": "https://github.com/ksonnet/ksonnet-lib.git",
           "subdir": "ksonnet.beta.4"
         }
       },
       "version": "0d2f82676817bbf9e4acf6495b2090205f323b9f",
       "sum": "ur22hPQq0JAPBxm8hNMcwjumj4MkozDwOKiGZvVMYh4="
-    },
-    {
-      "source": {
-        "local": {
-          "directory": ".."
-        }
-      },
-      "version": ""
     }
   ],
   "legacyImports": false
